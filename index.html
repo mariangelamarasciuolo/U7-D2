@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>esercizio</title>
+</head>
+
+<body>
+
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Registrazione</h2>
+        
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="nomeInput" name="nome" required>
+            <p id="savedName"></p>
+        </div>
+          
+          <div class="mb-3">
+            <button type="submit" class="btn btn-primary" id="save" >Conferma</button>
+            <button type="reset" class="btn btn-secondary" id="cancel" >Cancella</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="container mt-5">
+        <h1 class="mb-4">Contatore di Tempo</h1>
+        <div id="counter">0 secondi</div>
+      </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
